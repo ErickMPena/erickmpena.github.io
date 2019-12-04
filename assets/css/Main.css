@@ -1,0 +1,56 @@
+html {
+    font-family: "Helvetica Neue", sans-serif;
+    background: black;
+    color: white;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.Title {
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.Subtitle {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.Paragraph {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button {
+    animation: arrow;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    scroll-behavior: smooth;
+}
+
+.pics {
+    animation: size_increase;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes arrow {
+    32% {
+        transform: translateY(-5px);
+    }
+    64% {
+        transform: translateY(5px);
+    }
+}
+
+@keyframes size_increase {
+    32% {
+        transform: translateY(5px) translateX(5px);
+    }
+    64% {
+        transform: translateX(-5px) translateY(5px);
+    }
+}
+

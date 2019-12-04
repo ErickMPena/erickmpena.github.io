@@ -1,0 +1,124 @@
+#margin\ top {
+    margin-top: 25%;
+}
+
+.margin.bottom {
+    margin-bottom: 24%;
+}
+
+#My\ Name {
+    margin-top: 8%;
+}
+
+#comp\ container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#Brief\ intro {
+    margin-top: 0;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 6%;
+}
+
+.backgroundimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#below\ la\ margin {
+    margin-bottom: 5%;
+}
+
+#los\ angeles {
+    background-image:
+            linear-gradient(
+                rgba(0, 0, 0, .5),
+                rgba(0, 0, 0, .5)
+            ),
+            url("../img/Los Angeles.jpg");
+}
+
+#la\ intro{
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+#la\ body, #la\ body2, #la\ body3 {
+    font-size: 24px;
+    font-kerning: auto;
+    margin: 5% 10%;
+}
+
+#la\ body3 {
+    margin-bottom: 0;
+}
+
+#la\ arrow{
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+#la\ after\ margin {
+    margin-bottom: 5%;
+}
+
+#berkeley {
+    background-image:
+            linear-gradient(
+                    rgba(0, 0, 0, .5),
+                    rgba(0, 0, 0, .5)
+            ),
+            url("../img/berkeley.jpg");
+}
+
+#berk\ intro {
+    padding-top: 10%;
+    padding-bottom: 8%;
+}
+
+#berk\ body, #berk\ body2 {
+    font-size: 24px;
+    font-kerning: auto;
+    margin: 5% 10%;
+}
+
+#berk\ body3 {
+    padding-bottom: 0%;
+}
+
+#berk\ button {
+    margin-bottom: 8%;
+}
+
+#sm\ intro {
+    margin-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#SMLogo {
+    height: 200px;
+}
+
+#SurveyMonkey\ SWE {
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+}
+
+#SurveyMonkey\ Saying {
+    font-weight: lighter;
+    padding-top: 20px;
+}
+
+
+
+
+
